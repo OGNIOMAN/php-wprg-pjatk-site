@@ -36,6 +36,14 @@
     </v-main>
   </v-app>
 </template>
+<style>
+.token.regex,
+.token.important,
+.token.variable {
+	color: #fd971f !important;
+}
+
+</style>
 
 <script>
 import HelloWorld from './components/HelloWorld';
